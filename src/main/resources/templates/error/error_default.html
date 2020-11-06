@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>공통 에러 페이지</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}" href="../../css/style.css"></link>
+</head>
+<body>
+	<div style="background-color:#EFFBF8;margin:10px 10px;border:1px solid #000;padding: 10px 10px;">
+	<p style="font-weight:bold;margin:5px 5px;">공통 에러 페이지</p>
+	<hr>
+	<!-- // 실제로 에러를 노출하면 안됨. 적당한 메시지로 변경 
+	<p th:text="${exception}"></p>
+	<ul th:each="list : ${exception.getStackTrace()}" th:text="${list.toString()}"></ul>
+	 -->
+	 관리자에게 문의해주세요. 
+	</div>
+	
+</body>
+</html>
